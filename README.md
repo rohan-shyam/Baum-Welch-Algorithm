@@ -32,6 +32,7 @@ Ensure you have **Python 3.11+** and **Node.js** installed on your machine.
 
 
 ```bash
+git clone https://github.com/rohan-shyam/Baum-Welch-Algorithm/
 cd Baum-Welch-Algorithm
 python3 -m venv .venv
 source .venv/bin/activate
