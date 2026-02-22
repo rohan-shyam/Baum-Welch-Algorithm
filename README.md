@@ -8,9 +8,7 @@ Here is the updated **README.md** with the University details at the top and the
 
 **Name:** Rohan Shyam
 
-**Roll Number:** [Insert Roll Number]
-
-**University:** IIT Madras BS Degree
+**Roll Number:** TCR24CS056
 
 ---
 
