@@ -123,7 +123,7 @@ STATIC_URL = 'static/'
 CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",
+    "*"
 ]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
