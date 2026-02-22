@@ -1,6 +1,4 @@
-Since your virtual environment is in the root folder, it’s actually easier for someone else to set up because the `.venv` is already there—though they’ll still need to activate it to match your **Fedora** environment.
 
-Here is the updated **README.md** with the University details at the top and the specific local pathing for your project.
 
 ---
 
@@ -89,8 +87,3 @@ The algorithm performs iterative expectation-maximization to find the maximum li
 
 ---
 
-### One Final Warning
-
-Make sure the `fetch` call in `client/src/app/page.js` is set to `http://127.0.0.1:8000/api/run/`. If it still points to **Render** or **Railway**, the local frontend won't be able to talk to your local backend.
-
-Would you like me to add a **troubleshooting** section for common Python/Node version issues?
