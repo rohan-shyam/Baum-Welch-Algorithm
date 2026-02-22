@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zrxmsm#m3w^m3c_9l)m@&jn=$5=jcc-f-3j71ykn9$=domvie$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,10 +120,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
 ]
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
