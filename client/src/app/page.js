@@ -47,7 +47,7 @@ export default function BaumWelchMenu() {
         pi: parsedPi
       };
 
-      const response = await fetch("https://baum-welch-algorithm-1.onrender.com", {
+      const response = await fetch("http://127.0.0.1:8000/api/run/` ", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
