@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zrxmsm#m3w^m3c_9l)m@&jn=$5=jcc-f-3j71ykn9$=domvie$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -118,12 +118,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-STATIC_URL = 'static/'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
-    "*"
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+    "http://localhost:3000",  # Your Next.js dev server address
 ]
 
+STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
