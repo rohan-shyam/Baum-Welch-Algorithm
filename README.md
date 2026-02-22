@@ -24,21 +24,20 @@ An interactive dashboard for analyzing Hidden Markov Models using the Baum-Welch
 
 ## 💻 Local Execution Instructions
 
+
+
 ### 1. Prerequisites
 
 Ensure you have **Python 3.11+** and **Node.js** installed on your machine.
 
-### 2. Backend Setup
 
-The virtual environment is located in the root directory.
-
-1. Navigate to the root folder of the project.
-2. Activate the virtual environment:
 ```bash
+cd Baum-Welch-Algorithm
+python3 -m venv .venv
 source .venv/bin/activate
+pip install -r server/requirements.txt
 
 ```
-
 
 3. Navigate to the server directory:
 ```bash
@@ -86,4 +85,10 @@ The algorithm performs iterative expectation-maximization to find the maximum li
 2. **Maximization (M-step):** Updates the A, B, and  matrices based on the calculated probabilities.
 
 ---
+
+### Screenshots
+<img width="1223" height="855" alt="image" src="https://github.com/user-attachments/assets/8b8fe963-3d2b-4fc7-be7a-385c0fd73ae0" />
+
+<img width="1547" height="922" alt="image" src="https://github.com/user-attachments/assets/b3b6f727-7ed0-4e94-80b1-802544ea97e4" />
+
 
